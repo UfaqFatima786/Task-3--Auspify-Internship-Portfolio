@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <main class="app">
+    <header class="header">
+      <h1>☁️ Weather Dashboard</h1>
+      <button id="unitBtn" class="unit-btn" type="button" aria-label="Toggle temperature unit">°C</button>
+    </header>
+
+    <form id="searchForm" class="search" novalidate>
+      <input
+        id="cityInput"
+        type="text"
+        placeholder="City ka naam likhein (e.g. Karachi)"
+        autocomplete="off"
+        aria-label="City name"
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <p id="message" class="message" role="alert" hidden></p>
+    <div id="loader" class="loader" hidden>Loading...</div>
+
+    <section id="current" class="card current" hidden>
+      <div class="current-main">
+        <div>
+          <h2 id="cityName"></h2>
+          <p id="dateText" class="muted"></p>
+          <p id="condition" class="condition"></p>
+        </div>
+        <div class="temp-block">
+          <span id="icon" class="icon"></span>
+          <span id="temp" class="temp"></span>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="detail"><span class="label">Feels like</span><span id="feels"></span></div>
+        <div class="detail"><span class="label">Humidity</span><span id="humidity"></span></div>
+        <div class="detail"><span class="label">Wind</span><span id="wind"></span></div>
+        <div class="detail"><span class="label">Pressure</span><span id="pressure"></span></div>
+      </div>
+    </section>
+
+    <section id="forecastSection" hidden>
+      <h3 class="section-title">5-Day Forecast</h3>
+      <div id="forecast" class="forecast"></div>
+    </section>
+
+    <section id="recentSection" hidden>
+      <h3 class="section-title">Recent searches</h3>
+      <div id="recent" class="recent"></div>
+    </section>
+
+    <footer class="footer">Data: Open-Meteo API</footer>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>

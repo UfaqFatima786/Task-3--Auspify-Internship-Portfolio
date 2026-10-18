@@ -12,7 +12,7 @@ const recentSection = document.getElementById("recentSection");
 const recentEl = document.getElementById("recent");
 
 let unit = "C";
-let lastData = null; 
+let lastData = null;
 function describeWeather(code, isDay = 1) {
   if (code === 0) return { text: "Clear sky", icon: isDay ? "☀️" : "🌙" };
   if (code === 1) return { text: "Mainly clear", icon: isDay ? "🌤️" : "🌙" };
@@ -61,7 +61,6 @@ async function fetchJSON(url) {
   if (!res.ok) throw new Error(`Server error (${res.status}). Dobara try karein.`);
   return res.json();
 }
-
 async function getCoordinates(city) {
   const url = `${GEO_URL}?name=${encodeURIComponent(city)}&count=1&language=en&format=json`;
   const data = await fetchJSON(url);
@@ -137,7 +136,7 @@ function saveRecent(name) {
   let list = getRecent().filter((c) => c.toLowerCase() !== name.toLowerCase());
   list.unshift(name);
   list = list.slice(0, 5);
-  try { localStorage.setItem("recentCities", JSON.stringify(list)); } catch {}
+  try { localStorage.setItem("recentCities", JSON.stringify(list)); } catch { }
   renderRecent();
 }
 function renderRecent() {

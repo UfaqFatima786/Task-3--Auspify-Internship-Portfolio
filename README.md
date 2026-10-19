@@ -16,40 +16,7 @@ A simple and user-friendly **Weather App** developed as part of my **Auspify Int
 - HTML5
 - CSS3
 - JavaScript
-- Weather API *(if integrated in the project)*
-
-## 🚀 Getting Started
-
-Follow these steps to run the project locally.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/UfaqFatima786/Task-3--Auspify-Internship-Portfolio.git
-```
-
-### 2. Navigate to the Project Folder
-
-```bash
-cd Task-3--Auspify-Internship-Portfolio
-```
-
-### 3. Open the Project
-
-Open the project folder in Visual Studio Code and launch the main HTML file using the **Live Server** extension, if the project is built with HTML, CSS, and JavaScript.
-
-## 📂 Project Structure
-
-The project may follow a structure similar to this, depending on the actual files in the repository:
-
-```text
-Weather-App/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+- Weather API
 
 ## 🎯 Project Objectives
 
@@ -68,8 +35,7 @@ While developing this project, I worked on strengthening my understanding of fro
 **Syeda Ufaq Fatima**
 
 - GitHub: [@UfaqFatima786](https://github.com/UfaqFatima786)
-- LinkedIn: [Connect with me](https://www.linkedin.com/in/syeda-ufaq-fatima-237062385/)
-
+  
 ## 🏢 Internship
 
 **Organization:** Auspify Technologies  

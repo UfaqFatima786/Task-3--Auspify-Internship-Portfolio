@@ -32,8 +32,6 @@ While developing this project, I worked on strengthening my understanding of fro
 
 ## 👩‍💻 Developer
 
-**Syeda Ufaq Fatima**
-
 - GitHub: [@UfaqFatima786](https://github.com/UfaqFatima786)
   
 ## 🏢 Internship

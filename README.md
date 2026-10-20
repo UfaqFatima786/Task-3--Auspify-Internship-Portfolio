@@ -15,7 +15,7 @@ A simple and user-friendly **Weather App** developed as part of my **Auspify Int
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript ( ES6 )
 - Weather API
 
 ## 🎯 Project Objectives

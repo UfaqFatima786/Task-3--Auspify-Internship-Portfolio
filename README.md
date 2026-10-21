@@ -1,47 +1,82 @@
-# 🌦️ Weather App | Auspify Internship – Task 3
+# 🌦️ Weather Dashboard | Auspify Internship – Task 3
 
-A simple and user-friendly **Weather App** developed as part of my **Auspify Internship – Task 3**. This project focuses on displaying weather information through a clean interface and providing a convenient way for users to check weather conditions.
+A responsive and interactive **Weather Dashboard** built with HTML, CSS, and JavaScript as part of my **Auspify Technologies Web Development Internship – Task 3**.
+
+The application uses the Open-Meteo API to fetch current weather conditions and a 5-day forecast for searched cities. It features a clean dashboard interface, temperature unit conversion, weather condition icons, and recently searched cities saved in the browser.
+
+## 🚀 Live Demo
+
+🔗 **[View Weather Dashboard](https://weather-dashboard-task-done.netlify.app/)**
 
 ## ✨ Features
 
-- 🌍 **Weather Information:** Check weather details for a selected location.
-- 🔎 **Location Search:** Search for a city to explore its weather information.
-- 🌡️ **Weather Details:** Display available weather information such as temperature and conditions.
-- 📱 **Responsive Design:** Designed to provide a convenient experience across different screen sizes.
-- 🎨 **User-Friendly Interface:** Clean layout for easy navigation and readability.
-- ⚡ **Dynamic Updates:** Display weather information retrieved through the application's data source.
+- 🌍 **City Search:** Search for a city to retrieve its weather information.
+- 🌡️ **Current Weather:** View the current temperature and weather conditions.
+- 🔄 **Temperature Conversion:** Switch between Celsius (°C) and Fahrenheit (°F).
+- 🌤️ **Weather Icons:** Display weather-related icons based on weather conditions.
+- 📅 **5-Day Forecast:** View daily weather conditions along with maximum and minimum temperatures.
+- 💧 **Humidity:** Check the current relative humidity percentage.
+- 🌬️ **Wind Speed:** View wind speed in km/h.
+- 🌡️ **Feels-Like Temperature:** See the apparent temperature.
+- 🧭 **Atmospheric Pressure:** View surface pressure in hPa.
+- 🕒 **Local Weather Time:** Display the weather observation time using the location's timezone.
+- 🕘 **Recent Searches:** Keep the five most recently searched cities using browser Local Storage.
+- ⚠️ **Input Validation:** Handle empty or invalid city names.
+- ⏳ **Loading Indicator:** Display a loading message while fetching weather information.
+- 🛡️ **Error Handling:** Show helpful messages when a city cannot be found or a network request fails.
+- 📱 **Responsive Interface:** Provide a user-friendly dashboard across different screen sizes.
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript ( ES6 )
-- Weather API
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structure and semantic page elements |
+| CSS3 | Styling, layout, and responsive design |
+| JavaScript (ES6+) | Search functionality, DOM manipulation, and API requests |
+| Open-Meteo API | Current weather and forecast data |
+| Open-Meteo Geocoding API | Convert city names into geographical coordinates |
+| Fetch API | Retrieve weather data asynchronously |
+| Local Storage | Save recently searched cities in the browser |
+| Git & GitHub | Version control and source code management |
+| Netlify | Live website deployment |
 
-## 🎯 Project Objectives
+## 🧠 Key Learning Outcomes
 
-- Practice frontend web development.
-- Build an interactive and user-friendly interface.
-- Improve JavaScript programming skills.
-- Understand how weather data can be displayed in a web application.
-- Gain practical experience through an internship project.
+Through this project, I gained practical experience in:
 
-## 📚 Learning Outcomes
+- Integrating third-party APIs into a frontend application.
+- Using JavaScript's Fetch API and asynchronous functions.
+- Working with JSON responses and dynamically updating the DOM.
+- Validating user input and handling API errors.
+- Converting temperatures between Celsius and Fahrenheit.
+- Generating forecast cards dynamically with JavaScript.
+- Using Local Storage to persist recent search history.
+- Building a responsive weather dashboard.
+- Organizing frontend code into HTML, CSS, and JavaScript files.
 
-While developing this project, I worked on strengthening my understanding of frontend development, responsive layouts, JavaScript functionality, and the presentation of weather information in a web interface.
+## 🎯 Project Objective
+
+The main objective of this task was to strengthen my frontend development skills by building a functional weather dashboard that retrieves real-time weather information, presents a multi-day forecast, and provides an intuitive user experience.
 
 ## 👩‍💻 Developer
 
-- GitHub: [@UfaqFatima786](https://github.com/UfaqFatima786)
-  
-## 🏢 Internship
 
-**Organization:** Auspify Technologies  
-**Task:** Task 3 – Weather App
+- 💻 GitHub: [@UfaqFatima786](https://github.com/UfaqFatima786)
+- 🔗 Project Repository: [Weather Dashboard – Task 3](https://github.com/UfaqFatima786/Task-3--Auspify-Internship-Weather-App)
+- 🌐 Live Demo: [Weather Dashboard](https://weather-dashboard-task-done.netlify.app/)
+
+## 🏢 Internship Details
+
+- **Organization:** Auspify Technologies
+- **Domain:** Web Development
+- **Task:** Task 3 – Weather App
+- **Project Type:** Frontend Web Application
+
 
 ---
 
-⭐ If you find this project interesting, feel free to explore the repository!
+⭐ If you find this project interesting, feel free to explore the repository and try the live demo.
 
-*Built with 💙 as part of my learning journey in web development.*
+**Built with ☁️, 💙, and JavaScript as part of my frontend development journey.**
+
 

@@ -54,10 +54,6 @@ Through this project, I gained practical experience in:
 - Building a responsive weather dashboard.
 - Organizing frontend code into HTML, CSS, and JavaScript files.
 
-## 🎯 Project Objective
-
-The main objective of this task was to strengthen my frontend development skills by building a functional weather dashboard that retrieves real-time weather information, presents a multi-day forecast, and provides an intuitive user experience.
-
 ## 👩‍💻 Developer
 
 
